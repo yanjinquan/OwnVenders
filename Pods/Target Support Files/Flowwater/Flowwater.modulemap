@@ -1,0 +1,6 @@
+framework module Flowwater {
+  umbrella header "Flowwater-umbrella.h"
+
+  export *
+  module * { export * }
+}

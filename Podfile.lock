@@ -1,0 +1,16 @@
+PODS:
+  - Flowwater (0.0.2)
+
+DEPENDENCIES:
+  - Flowwater
+
+SPEC REPOS:
+  https://git.coding.net/shenquan/Specs.git:
+    - Flowwater
+
+SPEC CHECKSUMS:
+  Flowwater: 41f0283c62fce3618d4d7159a9905a406ac9c27a
+
+PODFILE CHECKSUM: 1c3952ce6126d7dcd574ede1a53820d8f0c08bff
+
+COCOAPODS: 1.5.3
