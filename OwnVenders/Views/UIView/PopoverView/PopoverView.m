@@ -142,7 +142,7 @@
         self.transform = CGAffineTransformMakeScale(0.1f, 0.1f);
         self.alpha = 0.f;
     } completion:^(BOOL finished) {
-        [_handerView removeFromSuperview];
+        [self->_handerView removeFromSuperview];
     }];
 }
 
