@@ -250,15 +250,15 @@
 		2547073020CE68020032209E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				2547075B20CE68030032209E /* NSTimer+invoke.h */,
+				2547074A20CE68020032209E /* NSTimer+invoke.m */,
 				2547073120CE68020032209E /* UIImage */,
 				2547073620CE68020032209E /* UIColor */,
 				2547073920CE68020032209E /* UIView */,
-				2547074A20CE68020032209E /* NSTimer+invoke.m */,
 				2547074B20CE68020032209E /* NSdictionry */,
 				2547074E20CE68020032209E /* NSString */,
 				2547075520CE68020032209E /* NSArry */,
 				2547075820CE68030032209E /* NSObject */,
-				2547075B20CE68030032209E /* NSTimer+invoke.h */,
 				2547075C20CE68030032209E /* ViewController */,
 			);
 			path = Categories;
@@ -595,10 +595,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TestPodsOwn/Pods-TestPodsOwn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Flowwater/Flowwater.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flowwater.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

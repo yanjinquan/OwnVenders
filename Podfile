@@ -6,4 +6,5 @@ use_frameworks!
 
 target 'TestPodsOwn' do
 pod 'Flowwater'
+pod 'AFNetworking', '~> 2.6.3'
 end

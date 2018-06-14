@@ -1,16 +1,41 @@
 PODS:
-  - Flowwater (0.0.2)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Flowwater (0.0.3):
+    - AFNetworking
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
   - Flowwater
 
 SPEC REPOS:
-  https://git.coding.net/shenquan/Specs.git:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - Flowwater
 
 SPEC CHECKSUMS:
-  Flowwater: 41f0283c62fce3618d4d7159a9905a406ac9c27a
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Flowwater: 02c1c377e31645c16d04cd8bc7716df512d7cf54
 
-PODFILE CHECKSUM: 1c3952ce6126d7dcd574ede1a53820d8f0c08bff
+PODFILE CHECKSUM: 2d780b0dfdc97fdb7b55968f684be1ba853f10f2
 
 COCOAPODS: 1.5.3
